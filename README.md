@@ -6,15 +6,12 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -25,9 +22,6 @@ Users should be able to:
 
 - See hover states for interactive elements
 
-### Screenshot
-
-![](./screenshot.jpg)
 
 
 ### Links
@@ -42,10 +36,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
