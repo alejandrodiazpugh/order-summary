@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+--clr-pale-blue: hsl(225, 100%, 94%);
+--clr-bright-blue: hsl(245, 75%, 52%);
+
+--clr-very-pale-blue: hsl(225, 100%, 98%);
+--clr-desaturated-blue: hsl(224, 23%, 55%);
+--clr-dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+    font-family: "Red Hat Display", sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+    color: hsl(223, 47%, 23%, 70%);
+}
+
+body {
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-color: var(--clr-pale-blue);
+    background-repeat: no-repeat;
+}
+
+.main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container { 
+    display: flex;
+    flex-wrap: wrap;
+    width: min(80%, 375px);
+    margin-inline: auto;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: center;
+    box-shadow: var(--clr-very-pale-blue);
+}
+#mainImg { 
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+}
+
+h2 {
+    font-weight: 900;
+    width: 100%;
+    flex-basis: 100%;
+    color:hsl(223, 47%, 23%, 95%);
+}
+
+p {
+    font-size: 16px;
+}
+
+.mainText {
+    justify-content: center;
+    padding: 0 2.32rem; 
+}
+
+.planContainer {
+    background-color:var(--clr-very-pale-blue);
+    width: 80%;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: .75rem 1rem;
+    padding: 0;
+}
+
+span {
+    font-weight: 700;
+    color:hsl(223, 47%, 23%);
+}
+
+li:nth-child(1) {
+    flex: 1 1 20%;
+    min-width: auto;
+}
+
+li:nth-child(2) {
+    flex: 1 1 40%; 
+    min-width: auto;
+}
+
+li:nth-child(3) {
+    color: var(--clr-bright-blue);
+    text-decoration: underline;
+    font-weight: 700;
+    cursor:pointer;
+     flex: 1 1 40%; 
+}
+
+#payment {
+    background-color: var(--clr-bright-blue);
+    font-weight: 700;
+    color: white;
+    padding: 1rem 4rem 1rem 4rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#cancel {
+    font-weight: 700;
+    cursor:pointer;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-image: url(/images/pattern-background-mobile.svg);
+    }
+
+    .container { 
+        width: 90%;
+    }
+
+    .planContainer {
+        width: 90%;
+    }
+
+    #payment {
+        display: block;
+        white-space: nowrap;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
