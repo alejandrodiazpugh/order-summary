@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution page](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/order-summary-component-with-htmlcss-ISxaUWsehB)
+- Live Site URL: [github Pages](https://alejandrodiazpugh.github.io/order-summary/)
 
 ## My process
 
@@ -56,6 +56,6 @@ I think a proper UI would have state changes, transitions, and maybe some animat
 ## Author
 
 - Website - [Alejandro Díaz](https://www.diazpugh.com) - Still under construction
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/alejandrodiazpugh)
+- Frontend Mentor - [@alejandrodiazpugh](https://www.frontendmentor.io/profile/alejandrodiazpugh)
 
 
